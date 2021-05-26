@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cards{
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px,1.6fr));
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    
+}
+.card{
+   
+    padding: 50px;
+    color: white;
+    
+}
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.9rem;
+    text-transform:uppercase;
+}
+.text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.one{
+    border-bottom-left-radius:10px ;
+    border-top-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+}
+.three{
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+
+}
+button{
+    border: none;
+    display: block;
+    margin-top: 50px;
+    padding: 12px 18px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+
+
+.bone{
+    color: hsl(31, 77%, 52%);
+    transition-duration: 0.4s;
+}
+.bone:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+.btwo{
+    color: hsl(184, 100%, 22%);
+    transition-duration: 0.4s;
+}
+.btwo:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+.bthree{
+    color: hsl(179, 100%, 13%);
+    transition-duration: 0.4s;
+}
+.bthree:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 0.4rem;
+}
